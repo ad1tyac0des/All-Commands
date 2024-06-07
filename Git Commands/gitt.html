@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Git Commands</title>
+    <link rel="stylesheet" href="gitStyle.css">
+
+    <link href="https://db.onlinewebfonts.com/c/55d433372d270829c51e2577a78ef12d?family=Monument+Extended+Bold"
+        rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Victor+Mono:ital,wght@0,300;1,300&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div id="main">
+        <div id="nav">
+            <a href="/MainLandingPg/menu.html">Menu</a>
+            <div id="heading">
+                <h2>Git Commands</h2>
+                <h4>- Cheatsheet</h4>
+            </div>
+
+
+        </div>
+
+        <div class="commandHeading">
+            <h4>Managing files locally on git</h4>
+        </div>
+
+        <!-- 1st Command -->
+        <div class="commandDiv">
+            <p class="command">git init</p>
+            <p class="commandInfo"><i class="ri-information-2-fill"></i> Initializes a new Git repository in the current
+                directory.</p>
+        </div>
+
+        <div class="commandDiv">
+            <p class="command">git add filename</p>
+            <p class="commandInfo"><i class="ri-information-2-fill"></i> To add new file in repository. You can use "." for selecting all files</p>
+        </div>
+
+        <!-- 2nd Command -->
+        <div class="commandDiv">
+            <p class="command">git status</p>
+            <p class="commandInfo"><i class="ri-information-2-fill"></i> Displays the state of the working directory and
+                the staging area, showing changes that have been staged, changes that have not been staged, and
+                untracked files.</p>
+        </div>
+
+        <div class="commandDiv">
+            <p class="command">git log</p>
+            <p class="commandInfo"><i class="ri-information-2-fill"></i> It shows the commited file
+            </p>
+        </div>
+        <div class="commandDiv">
+            <p class="command">git branch </p>
+            <p class="commandInfo"><i class="ri-information-2-fill"></i> To check the number of branch
+            </p>
+        </div>
+        <div class="commandDiv">
+            <p class="command">git branch branchName </p>
+            <p class="commandInfo"><i class="ri-information-2-fill"></i> To add a new branch
+            </p>
+        </div>
+        <div class="commandDiv">
+            <p class="command">git switch branchName </p>
+            <!-- <p class="commandInfo"><i class="ri-information-2-fill"></i> To merge one branch with another <br> <i class="ri-information-2-fill"></i> Note - For this we have to switch on main(default branch) then only we have to merge.
+            </p> -->
+            <p class="commandInfo"><i class="ri-information-2-fill"></i> To merge one branch with another</p>
+            <p class="commandInfo"><i class="ri-information-2-fill"></i> Note - For this we have to switch on main(default branch) then only we have to merge. </p>
+        </div>
+        <div class="commandDiv">
+            <p class="command">git branch -d branchName</p>
+            <p class="commandInfo"><i class="ri-information-2-fill"></i> To delete the branch
+            </p>
+        </div>
+        <div class="commandDiv">
+            <p class="command">git stash</p>
+            <p class="commandInfo"><i class="ri-information-2-fill"></i> This command will execute when we write code but we dont waana to add nor delete and move to another branch (it store the code in memory). 
+            </p>
+        </div>
+        <div class="commandDiv">
+            <p class="command">git stash apply </p>
+            <p class="commandInfo"><i class="ri-information-2-fill"></i> This command will execute when we want to apply that stored data.
+            </p>
+        </div>
+        <div class="commandDiv">
+            <p class="command">git stash clear </p>
+            <p class="commandInfo"><i class="ri-information-2-fill"></i> To add new branch
+            </p>
+        </div>
+        <div class="commandDiv">
+            <p class="command">git reset --hard HEAD~1  </p>
+            <p class="commandInfo"><i class="ri-information-2-fill"></i> To move on previous saved point
+            </p>
+        </div>
+        <div class="commandDiv">
+            <p class="command">rm -rf .git</p>
+            <p class="commandInfo"><i class="ri-information-2-fill"></i> To restart git
+            </p>
+        </div>
+    </div>
+</body>
+
+</html>
